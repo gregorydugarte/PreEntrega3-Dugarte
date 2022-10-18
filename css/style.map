@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		"h1 {\r\n    color: red;\r\n}\r\n\r\nh2 {\r\n    color: red;\r\n}\r\n\r\nimg {\r\n    height: 350px;\r\n    background-size: contain;\r\n}\r\n\r\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,EAAE,CAAC;EACC,KAAK,EAAE,GAAG,GACb;;;AAED,AAAA,EAAE,CAAC;EACC,KAAK,EAAE,GAAG,GACb;;;AAED,AAAA,GAAG,CAAC;EACA,MAAM,EAAE,KAAK;EACb,eAAe,EAAE,OAAO,GAC3B"
+}
