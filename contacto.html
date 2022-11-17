@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ingenieria estructural, administración y gestión de proyecto, construcción de obras viales, edificaciones, inspeccion tecnica de obra  ">
+    <meta name="keywords" content="ingenieria, vialidad, construcción, estructura, gestion, proyecto, edificaciones">
+    <title id="titulo">G&D Ingenieria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">G&D</a> <!-- logo -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="informacion-empresa.html">Información de la Empresa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="clientes.html">Clientes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <h1 class="text-center mt-1">G&D Ingenieria y Gestión</h1>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/puente.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item active">
+            <img src="img/vista-edificio-techo.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</header>
+    <br>
+      <div class="container">
+        <h3>Celular</h3>
+        <p>+56 9 6238 8981</p>
+        <address>
+          Estamos ubicado en Barrio Las Condes, Edificio Empresarial, Santiago - Chile
+        </address>
+        <h3>Correo Electronico</h3>
+        <p>GDUGARTE@gmail.com</p>
+        <br>
+        <h3>Contacto</h3>
+        <p>Rellene los datos solicitados y a la brevedad nos podemos en contacto con usted</p>
+        
+        <form action="guardar.html" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Gregory">
+
+            
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Dugarte">
+            
+            <label for="telefono">Telefono:</label>
+            <input type="text" name="telefono" id="telefono" placeholder="+56 9 6238 8981"><br><br>
+
+            <label for="correo">Correo electronico:</label>
+            <input type="email" name="correo" id="correo" placeholder="gduagrte@gmail.com">
+            <br><br>
+
+            <label for="comentario">Comentarios:</label><br>
+            <textarea name="comentario" id="comentario" style="min-width: 780px; min-height: 200px; max-width: 780px; max-height: 200px;" placeholder="Ingrese comentario"></textarea><br>
+
+            <button type="submit">Guardar Información</button>
+            <button type="reset">Limpiar</button>          
+            <button type="submit">Enviar</button>    
+        </form> 
+      </div>
+            
+    <footer class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <span class="mb-3 mb-md-0">© 2022 Todos los derechos reservados</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a target="_blank" href="https://twitter.com">Twitter</a></li>
+        <li class="ms-3"><a target="_blank" href="https://Instagram.com">Instagram</a></li>
+        <li class="ms-3"><a target="_blank" href="https://Facebook.com">Facebook</a></li>
+      </ul>
+
+    </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+</html>
